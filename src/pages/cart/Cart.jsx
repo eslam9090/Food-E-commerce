@@ -2,7 +2,7 @@ import { useSelector } from "react-redux";
 import BannerSection from "../../components/bannersection/BannerSection";
 import CartItems from "../../components/cartItems/CartItems";
 import Checkout from "../../components/checkout/Checkout";
-import styles from "./Cart.module.css";
+import styles from "./cart.module.css";
 const Cart = () => {
   const { cartItems } = useSelector((state) => state.products);
   return (
