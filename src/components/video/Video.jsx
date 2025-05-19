@@ -1,4 +1,4 @@
-import styles from "./Video.module.css";
+import styles from "./video.module.css";
 import ReactPlayer from "react-player";
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
