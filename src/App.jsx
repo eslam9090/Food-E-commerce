@@ -9,7 +9,7 @@ import Contact from "./pages/contact/Contact";
 import NotFound from "./components/notfound/NotFound";
 import Cart from "./pages/cart/Cart";
 import WishList from "./pages/wishlist/WishList";
-import ProductDetails from "./pages/productDetails/productDetails";
+import ProductDetails from "./pages/productDetails/ProductDetails";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 function App() {
