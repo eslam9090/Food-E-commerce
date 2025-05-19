@@ -1,0 +1,143 @@
+.card {
+  width: 350px;
+  background-color: var(--secondary-color);
+  padding: 0.5rem;
+  border-radius: 16px;
+  position: relative;
+}
+.newFeature {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 0.5rem 1rem;
+  border-radius: 16px 0 16px 0;
+  z-index: 3;
+}
+.card_image {
+  position: relative;
+  overflow: hidden;
+}
+.card_image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.card_image:hover img {
+  transform: rotate(4deg) scale(1.1);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.fav {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 0.5rem;
+  background-color: var(--white-color);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 3;
+  border: 3px solid #d6282880;
+}
+
+.fav_icon {
+  color: var(--primary-color);
+  font-size: 22px;
+}
+.activeFav {
+  background-color: var(--primary-color);
+}
+.activeFavIcone {
+  color: var(--white-color);
+}
+
+.price_rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ffffff1a;
+}
+.price p {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 24px;
+}
+.rate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.star {
+  color: gold;
+  font-size: 22px;
+}
+.rate span {
+  font-size: 24px;
+  color: var(--white-color);
+  font-weight: 400;
+  margin-left: 8px;
+}
+.product_name a {
+  display: inline-block;
+  color: var(--white-color);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 1.5rem 0;
+}
+.piece_1 {
+  margin-bottom: 15px;
+}
+.piece_1,
+.piece_2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--white-color);
+}
+.check {
+  color: var(--primary-color);
+}
+.add_cart {
+  margin: 2rem 0;
+  position: relative;
+  overflow: hidden;
+}
+.add_cart::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: var(--primary-color);
+  border-radius: 16px;
+  z-index: 1;
+}
+.add_cart:hover::before {
+  width: 100%;
+  transition: all 0.5s ease;
+}
+.add_cart button {
+  border: 3px solid #ffffff;
+  border-radius: 14px;
+  color: var(--white-color);
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  position: relative;
+  z-index: 5;
+}

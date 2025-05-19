@@ -1,0 +1,26 @@
+.categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 100px 0;
+}
+.products_category {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  padding-bottom: 200px;
+}
+
+@media (max-width: 448px) {
+  .products_category {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+@media (max-width: 1182px) {
+  .products_category {
+    margin: 0 20px;
+  }
+}

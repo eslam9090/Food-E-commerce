@@ -1,0 +1,8 @@
+.wishlist_container {
+  padding: 100px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  padding-bottom: 200px;
+}
