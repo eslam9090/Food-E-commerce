@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import styles from "./Checkout.module.css";
+import styles from "./checkout.module.css";
 const Checkout = () => {
   const { totalAmountState } = useSelector((state) => state.products);
 

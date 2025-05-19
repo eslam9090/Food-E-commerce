@@ -1,4 +1,4 @@
-import styles from "./Heading.module.css";
+import styles from "./heading.module.css";
 // eslint-disable-next-line react/prop-types
 const Heading = ({ title, subTitle }) => {
   return (

@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
-import { useState } from "react";
-import styles from "./Category.module.css";
+
+import styles from "./category.module.css";
 const Category = ({ category, onClick, activeCat }) => {
   function handelClicks() {
     onClick();

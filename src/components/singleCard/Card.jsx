@@ -2,7 +2,7 @@
 import { FaStar } from "react-icons/fa";
 import { FaRegCheckCircle } from "react-icons/fa";
 import { IoIosHeart } from "react-icons/io";
-import styles from "./Card.module.css";
+import styles from "./card.module.css";
 import { Link, useLocation } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import {

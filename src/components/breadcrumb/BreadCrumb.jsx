@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import styles from "./BreadCrumb.module.css";
+import styles from "./breadcrumb.module.css"; // Adjust the path as necessary
 
 const BreadCrumb = () => {
   const location = useLocation(); // Use React Router's useLocation instead of window.location
@@ -13,7 +13,7 @@ const BreadCrumb = () => {
         </li>
         {pathnames.map((item, index) => {
           const isLast = index === pathnames.length - 1;
- 
+
           return (
             <li key={index}>
               <span className={styles.slash}>-</span>

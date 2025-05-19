@@ -1,5 +1,5 @@
 import BreadCrumb from "../breadcrumb/BreadCrumb";
-import styles from "./BannerSection.module.css";
+import styles from "./bannersection.module";
 const BannerSection = () => {
   return (
     <div className="padding-container">

@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useDispatch } from "react-redux";
-import styles from "./CartItems.module.css";
+import styles from "./cartItems.module.css";
 import {
   decrementQty,
   incrementQty,
