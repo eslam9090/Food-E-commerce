@@ -1,11 +1,11 @@
 import { RouterProvider } from "react-router-dom";
 import { createBrowserRouter } from "react-router-dom";
-import Layout from "./components/layout/layout";
+import Layout from "./components/layout/Layout";
 import ErrorPage from "./pages/errorpage/ErrorPage";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Shop from "./pages/shop/Shop";
-import Contact from "./pages/contact/contact";
+import Contact from "./pages/contact/Contact";
 import NotFound from "./components/notfound/NotFound";
 import Cart from "./pages/cart/Cart";
 import WishList from "./pages/wishlist/WishList";
