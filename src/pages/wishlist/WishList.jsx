@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 import BannerSection from "../../components/bannersection/BannerSection";
 import Card from "../../components/singleCard/Card";
-import styles from "./WishList.module.css";
+import styles from "./wishlist.module.css";
 const WishList = () => {
   const { wishListProducts } = useSelector((state) => state.products);
 

@@ -6,7 +6,7 @@ import {
   getSingleProducts,
 } from "../../reduxToolkit/slices/getAllProducts";
 import { useEffect } from "react";
-import styles from "./ProductDetails.module.css";
+import styles from "./productDetails.module.css";
 import Heading from "../../components/heading/Heading";
 const ProductDetails = () => {
   const { id } = useParams();
