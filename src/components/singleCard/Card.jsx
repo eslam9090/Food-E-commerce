@@ -33,7 +33,7 @@ const Card = ({ product }) => {
     <div className={styles.card}>
       {product.feature && <div className={styles.newFeature}>New</div>}
       <div className={styles.card_image}>
-        <img src={"http://localhost:1337" + product.image.url} alt="" />
+        <img src={import.meta.env.VITE_API_URL + product.image.url} alt="" />
         <div
           className={`${styles.fav} ${fav ? styles.activeFav : ""}`}
           onClick={() => handelAddToFav(product.documentId)}

@@ -28,7 +28,7 @@ const ProductDetails = () => {
         <div className={styles.product_details_wrapper}>
           <div className={styles.product_details_img}>
             <img
-              src={"http://localhost:1337" + singelProduct.image?.url}
+              src={import.meta.env.VITE_API_URL + singelProduct.image?.url}
               alt="img"
             />
           </div>
