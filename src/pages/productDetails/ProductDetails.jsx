@@ -28,7 +28,10 @@ const ProductDetails = () => {
         <div className={styles.product_details_wrapper}>
           <div className={styles.product_details_img}>
             <img
-              src={import.meta.env.VITE_API_URL + singelProduct.image?.url}
+              src={
+                "https://food-e-commerce-backend-strapi-production.up.railway.app/" +
+                singelProduct.image?.url
+              }
               alt="img"
             />
           </div>
