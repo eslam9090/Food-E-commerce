@@ -35,7 +35,7 @@ const Card = ({ product }) => {
       <div className={styles.card_image}>
         <img
           src={
-            "https://food-e-commerce-backend-strapi-production.up.railway.app/" +
+            "https://food-e-commerce-backend-strapi-production.up.railway.app" +
             product.image.url
           }
           alt=""

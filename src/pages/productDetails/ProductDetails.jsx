@@ -29,7 +29,7 @@ const ProductDetails = () => {
           <div className={styles.product_details_img}>
             <img
               src={
-                "https://food-e-commerce-backend-strapi-production.up.railway.app/" +
+                "https://food-e-commerce-backend-strapi-production.up.railway.app" +
                 singelProduct.image?.url
               }
               alt="img"
