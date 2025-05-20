@@ -18,11 +18,7 @@ const Header = () => {
         <div className={styles.navbar_container}>
           <div className="logo">
             <Link to="/">
-              <img
-                width={"70px"}
-                src="/public/assets/images/logo.png"
-                alt="logo"
-              />
+              <img width={"70px"} src="assets/images/logo.png" alt="logo" />
             </Link>
           </div>
           <ul
