@@ -20,7 +20,7 @@ const Header = () => {
             <Link to="/">
               <img
                 width={"70px"}
-                src="../../../public/assets/images/logo.png"
+                src="/public/assets/images/logo.png"
                 alt="logo"
               />
             </Link>
